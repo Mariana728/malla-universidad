@@ -88,11 +88,3 @@
 
 </body>
 </html>
-
-  
-
-.pendiente {
-  background-color: #dbeafe; /* celeste más suave */
-}
-
-  
