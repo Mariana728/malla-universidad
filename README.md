@@ -88,52 +88,8 @@
 
 </body>
 </html>
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #eef5fb; /* fondo celeste */
-  padding: 20px;
-}
 
-h1 {
-  text-align: center;
-  color: #1e3a8a; /* azul oscuro */
-}
-
-.semestre {
-  background-color: #ffffff;
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: 12px;
-  width: 90%;
-  max-width: 800px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.07);
-  border-left: 5px solid #a8d0e6;
-}
-
-.semestre h2 {
-  color: #1e3a8a;
-  margin-bottom: 10px;
-}
-
-.materia {
-  display: inline-block;
-  padding: 10px 16px;
-  margin: 10px 8px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 15px;
-  background-color: #dbeafe; /* celeste por defecto (pendiente) */
-  color: #1e3a8a;
-  transition: transform 0.2s ease;
-}
-
-.materia:hover {
-  transform: scale(1.05);
-}
-
-.aprobada {
-  background-color: #a8d0e6; /* azul claro */
-}
+  
 
 .pendiente {
   background-color: #dbeafe; /* celeste más suave */
