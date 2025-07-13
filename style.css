@@ -1,39 +1,52 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5fb; /* fondo celeste */
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #1e3a8a; /* azul oscuro */
 }
 
 .semestre {
-  margin: 30px 0;
+  background-color: #ffffff;
+  margin: 20px auto;
   padding: 15px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.07);
+  border-left: 5px solid #a8d0e6;
+}
+
+.semestre h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
 }
 
 .materia {
   display: inline-block;
-  margin: 10px;
-  padding: 10px 15px;
-  border-radius: 8px;
-  background-color: #ddd;
-  font-weight: bold;
+  padding: 10px 16px;
+  margin: 10px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #dbeafe; /* celeste por defecto (pendiente) */
+  color: #1e3a8a;
+  transition: transform 0.2s ease;
+}
+
+.materia:hover {
+  transform: scale(1.05);
 }
 
 .aprobada {
-  background-color: #a3e4d7;
+  background-color: #a8d0e6; /* azul claro */
 }
 
-.cursando {
-  background-color: #f9e79f;
+.pendiente {
+  background-color: #dbeafe; /* celeste más suave */
 }
 
-.reprobada {
-  background-color: #f1948a;
-}
+  
