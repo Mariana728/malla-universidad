@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla Curricular de Mariana</title>
+  <Malla Curricular de Mariana>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
