@@ -64,26 +64,26 @@
 
   <div class="semestre">
     <h2>Ciclo 8</h2>
-    <div class="materia pendiente">Francés y el Turismo</div>
-    <div class="materia pendiente">Gramática Avanzada</div>
-    <div class="materia pendiente">Literatura Francesa I</div>
-    <div class="materia pendiente">Opinión Pública</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Francés y el Turismo</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Gramática Avanzada</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Literatura Francesa I</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Opinión Pública</div>
   </div>
 
   <div class="semestre">
     <h2>Ciclo 9</h2>
-    <div class="materia pendiente">Francés y la Traducción</div>
-    <div class="materia pendiente">Introducción a la Lingüística</div>
-    <div class="materia pendiente">Literatura Francesa II</div>
-    <div class="materia pendiente">Seminario I</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Francés y la Traducción</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Introducción a la Lingüística</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Literatura Francesa II</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Seminario I</div>
   </div>
 
   <div class="semestre">
     <h2>Ciclo 10</h2>
-    <div class="materia pendiente">Fonología y Morfología Inglesa</div>
-    <div class="materia pendiente">Historia de El Salvador y C.A.</div>
-    <div class="materia pendiente">Literatura en Inglés I</div>
-    <div class="materia pendiente">Seminario II</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Fonología y Morfología Inglesa</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Historia de El Salvador y C.A.</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Literatura en Inglés I</div>
+    <div class="materia pendiente" onclick="seleccionar(this)">Seminario II</div>
   </div>
 
 </body>
